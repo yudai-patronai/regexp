@@ -8,14 +8,14 @@
 # + ab
 # - b
 # - ba
-REGEXP_1 = ''
+REGEXP_1 = '^a.*'
 
 # + aab
 # + abb
 # + acb
 # - ab
 # - aabc
-REGEXP_2 = ''
+REGEXP_2 = '^a[abc]{2}$'
 
 # + sofia.mp3
 # + sofia.mp4
